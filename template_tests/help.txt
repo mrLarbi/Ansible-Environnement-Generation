@@ -1,0 +1,13 @@
+Usage : generate_tests [command] [+options]
+
+Commands :
+
+- help           : Display help
+- gen            : Generate a folder with the Ansible environnement for testing purpose
+
+Options : 
+
+-n, --name       : The name of the folder. REQUIERED
+-h, --host       : The host of the remote machine. OPTIONAL, DEFAULT=localhost
+-u, --user       : The user used for the connection to the remote machine. OPTIONAL, DEFAULT=root
+-p, --password   : The password of the user. OPTIONAL, DEFAULT=root
